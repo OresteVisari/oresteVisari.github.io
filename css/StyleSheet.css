@@ -1,0 +1,78 @@
+* {margin:0; padding:0;}
+img,a  { border:0;}
+*:focus  {  outline: none;  }
+ul li { list-style:none;}
+a {text-decoration:none;}
+body {  background-color:White; }
+p {font-family: "arial";font-size:12px; }
+h2 {font-size:24px; margin:10px 0 24px 0;color: #262626;}
+ul {font-family:arial;font-size: 12px;display: block; float: left;list-style: disc outside none;}
+.clear {clear:both;} 
+.div960 { width:960px; margin:auto; padding-left: 12px;}
+#_article_expérience li, #_article_projets p, #_article_formation li  {padding-top:1px; }
+._no_padding_top {padding-top:0px; }
+
+/*** Header ***/
+#_div_header {margin-top:70px; min-height:100px; }
+#_div_header h1 {display:inline;  color: #E41E26; font-size: 36px; font-weight: bold; }
+#_div_header p {font-size:12px; color:#6B6B6B;}
+#_div_header a {color:#df1d25; }
+
+
+/*** Les article ***/
+#_article_objectif,#_article_projets {width:400px;  margin-top:48px; padding-right:100px; float:left;}
+#_article_objectif p {line-height:17px; text-align:justify;}
+#_article_formation  { width:450px; padding-left:5px; margin-top:48px; float:left;}
+#_article_formation li { margin-left:8px; }
+#_article_expérience  { width:440px; padding-top:48px;padding-left:5px;  float:left;}
+#_article_expérience li { padding-left: 12px; }
+#_article_expérience ul { float:none; }
+#_article_expérience section { padding-bottom:6px; }
+ul._ul_strong {font-weight: bold; }
+
+
+/*** Block compétences ***/
+#_div_competences {padding-top: 34px; }
+#_ul_competences {padding-top: 2px; float:left; padding-top: 18px; padding-right: 12px;  }
+#_ul_competences li {color:#262626; font-size:14px; margin-bottom:10px;  display:block; width:91px; text-align:right;}
+#_ul_logiciels { margin-left:114px; }
+#_ul_logiciels li {color:#262626; font:12px Arial, Helvetica, sans-serif; float:left; display:block; width:70px; text-align:center; text-align:center; margin:13px 0 0 6px; }
+#_div_niveau { float:left; width:850px; height:150px;border-left:thin; border-left-style:solid; border-bottom:thin; border-bottom-style:solid;}
+#_div_niveau ul li { background-color:#df1d25; width:57px; height:130px; margin:20px 0 0 19px; text-indent:-9999px; float:left; margin-bottom: 10px; }
+#_div_niveau ul li#_log_java { height:130px; margin-top:20px; }
+#_div_niveau ul li#_log_c { height:110px; margin-top:40px; }
+#_div_niveau ul li#_log_ocaml { height:50px; margin-top:100px; }
+#_div_niveau ul li#_log_bash { height:80px; margin-top:70px; }
+#_div_niveau ul li#_log_uml {  height:110px; margin-top:40px; }
+#_div_niveau ul li#_log_html { height:130px; margin-top:20px; }
+#_div_niveau ul li#_log_javascript { height:80px; margin-top:70px; }
+#_div_niveau ul li#_log_php { height:50px; margin-top:100px; }
+#_div_niveau ul li#_log_gimp { height:50px; margin-top:100px; }
+#_div_niveau ul li#_log_eclipse { height:100px; margin-top:50px; }
+#_div_niveau ul li#_log_linux { height:130px; margin-top:20px; }  
+
+
+/*** footer ***/
+#_div_footer { margin-top:280px; height:100px; background-color:#242424; background-repeat:repeat-x;padding-bottom: 2px; padding-left: -12px;}
+#_div_footer p {color:#ffffff; font-size:13px; text-transform:uppercase; text-align:left; padding-top:40px; padding-left:200px;}
+#_div_footer a {color:#df1d25;}
+
+
+/*** Image 'Mon CV' ***/
+#_img_coin { position: fixed; right: -100px; top : -100px;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-moz-transform:rotate(45deg); /* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+	-o-transform:rotate(45deg); /* Opera */
+}
+
+/*** Rules to make a responsive desing ***/
+@media screen and (max-width: 640px) {
+	#_article_formation, #_article_expérience {padding-right:100px; float:left; padding-left:0; }
+	#_div_footer {  margin-top:500px; }
+	#_div_header h1 { display:block; }
+	#_div_header p { padding-top: 5px; }
+	#_img_coin { display:none; }
+}
+
