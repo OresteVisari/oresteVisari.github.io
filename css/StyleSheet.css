@@ -80,3 +80,8 @@ ul._ul_strong {font-weight: bold; }
     .div960, #_div_footer { width:auto; }
 }
 
+@media only screen and (max-device-width:480px) { 
+    .div960 { display: none; }
+    #_img_coin { display:none; }
+    #_div_footer p { font-size:26px; }
+} 
