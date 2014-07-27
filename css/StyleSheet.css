@@ -3,7 +3,7 @@ img,a  { border:0;}
 *:focus  {  outline: none;  }
 ul li { list-style:none;}
 a {text-decoration:none;}
-body {  background-color:White; }
+body {  background-color:White; min-width:380px; }
 p {font-family: "arial";font-size:12px; }
 h2 {font-size:24px; margin:10px 0 24px 0;color: #262626;}
 ul {font-family:arial;font-size: 12px;display: block; float: left;list-style: disc outside none;}
@@ -59,7 +59,7 @@ ul._ul_strong {font-weight: bold; }
 
 
 /*** Image 'Mon CV' ***/
-#_img_coin { position: fixed; right: -100px; top : -100px;
+#_img_coin { position: fixed; right: -100px; top : -100px;  
 	transform:rotate(45deg);
 	-ms-transform:rotate(45deg); /* IE 9 */
 	-moz-transform:rotate(45deg); /* Firefox */
@@ -68,11 +68,15 @@ ul._ul_strong {font-weight: bold; }
 }
 
 /*** Rules to make a responsive desing ***/
-@media screen and (max-width: 640px) {
-	#_article_formation, #_article_expérience {padding-right:100px; float:left; padding-left:0; }
+@media all and (max-width: 940px) {
+    #_div_header { margin-top:20px; }
+	article {padding-right:10px; float:none; }
+    #_article_formation, #_article_expérience  { padding-left:0px; }
 	#_div_footer {  margin-top:500px; }
 	#_div_header h1 { display:block; }
 	#_div_header p { padding-top: 5px; }
 	#_img_coin { display:none; }
+    #_div_competences { display:none; }
+    .div960, #_div_footer { width:auto; }
 }
 
