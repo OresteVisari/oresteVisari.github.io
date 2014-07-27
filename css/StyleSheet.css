@@ -40,12 +40,12 @@ ul._ul_strong {font-weight: bold; }
 #_div_niveau { float:left; width:850px; height:150px;border-left:thin; border-left-style:solid; border-bottom:thin; border-bottom-style:solid;}
 #_div_niveau ul li { background-color:#df1d25; width:57px; height:130px; margin:20px 0 0 19px; text-indent:-9999px; float:left; margin-bottom: 10px; }
 #_div_niveau ul li#_log_java { height:130px; margin-top:20px; }
-#_div_niveau ul li#_log_c { height:110px; margin-top:40px; }
+#_div_niveau ul li#_log_c { height:80px; margin-top:70px; }
 #_div_niveau ul li#_log_ocaml { height:50px; margin-top:100px; }
-#_div_niveau ul li#_log_bash { height:80px; margin-top:70px; }
-#_div_niveau ul li#_log_uml {  height:110px; margin-top:40px; }
+#_div_niveau ul li#_log_bash { height:110px; margin-top:40px; }
+#_div_niveau ul li#_log_uml {  height:80px; margin-top:70px; }
 #_div_niveau ul li#_log_html { height:130px; margin-top:20px; }
-#_div_niveau ul li#_log_javascript { height:80px; margin-top:70px; }
+#_div_niveau ul li#_log_javascript { height:110px; margin-top:40px; }
 #_div_niveau ul li#_log_php { height:50px; margin-top:100px; }
 #_div_niveau ul li#_log_gimp { height:50px; margin-top:100px; }
 #_div_niveau ul li#_log_eclipse { height:100px; margin-top:50px; }
